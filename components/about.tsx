@@ -19,31 +19,17 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
-      </p>
+    After completing my studies in <span className="font-medium">Software Engineering</span>, I have accumulated over <span className="font-medium">3 years of experience</span> in the field of web and mobile application development. My journey has equipped me with hands-on skills in <span className="font-medium">full-stack development</span>, and I am particularly proficient in database, server, and network maintenance. <span className="italic">My favorite part of programming</span> is designing solutions that are efficient and user-friendly, and I <span className="underline">enjoy</span> the collaborative process of bringing projects to life.
+</p>
 
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
-      </p>
+<p className="mb-3">
+    My core stack includes <span className="font-medium">React, React Native, Node.js, and Laravel</span>. I am also familiar with modern frameworks and libraries and am always eager to learn new technologies. 
+</p>
+
+<p>
+    <span className="italic">Outside of coding</span>, I enjoy staying active and trying new hobbies. I spend my downtime playing video games, exploring new tech, and expanding my knowledge in <span className="font-medium">philosophy and tech innovation</span>. I am also working on developing my skills in <span className="font-medium">UI/UX design</span> to enhance the user experience in the applications I build.
+</p>
+
     </motion.section>
   );
 }
