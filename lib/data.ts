@@ -16,7 +16,7 @@ import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
-    name: "Home",
+    name: "🏠",
     hash: "#home",
   },
   {
@@ -28,7 +28,7 @@ export const links = [
     hash: "#projects",
   },
   {
-    name: "Skills",
+    name: "Skills ",
     hash: "#skills",
   },
   {
@@ -148,7 +148,7 @@ export const projectsData = [
   {
     title: "Doc-Tracker by Niftron",
     subTitle:"Niftron",
-    projectUrl:"#",
+    projectUrl:"/DocTracker",
     description:
       "It is a web app for efficient document upload, organization, and tracking, offering secure and streamlined document management.",
     tags: ["MongoDB",  "Express",  "Git", "ReactJS", "Node", "Bootstrap",],
