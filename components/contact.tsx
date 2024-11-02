@@ -49,7 +49,8 @@ export default function Contact() {
             return;
           }
 
-          toast.success("Email sent successfully!");
+          toast.success("Thank You!");
+          toast.success("I Will Get In Touch Soon 😉");
         }}
       >
         <input

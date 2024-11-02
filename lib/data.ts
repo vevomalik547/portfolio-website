@@ -8,6 +8,7 @@ import mobcustomer from "@/public/mobcustomer.jpg";
 import landingpage from "@/public/landingpage.png";
 import landing from "@/public/landing.png";
 import rmtdevImg1 from "@/public/rmtdev1.png";
+import ahds from "@/public/ahds.png";
 import niftron from "@/public/niftron.png";
 import niftron1 from "@/public/niftron1.png";
 import supplierMob from "@/public/supplierMob.png";
@@ -99,44 +100,58 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "E-Commerce Mobile App",
+    title: "Aahaas - Lifestyle Travel App",
     subTitle:"Aahaas",
+    projectUrl:"https://me-qr.com/gM5JzlH0",
     description:
       // "I worked as a frontend developer on this startup project for 2 years. Users can plan and book their stays from Zero to Hero via this Mobile Application",
       "It is a travel and tourism platform offering personalized experiences, booking options, and lifestyle services tailored for travelers, enhancing convenience and discovery.",
-    tags: ["React Native", "Laravel", "MySQL", "OpenAI", "Android", "iOS"],
+    tags: ["React Native", "Laravel", "MySQL", "OpenAI", "Android", "iOS", ],
     imageUrl: rmtdevImg1,
   },
   {
-    title: "Mobile App - Supplier Experience",
+    title: "Supplier Experience by Aahaas",
     subTitle:"Aahaas",
+    projectUrl:"https://apps.apple.com/lk/app/supplier-experience-by-aahaas/id6504238627",
     description:
       "It connects suppliers with the Aahaas platform, allowing them to manage products, orders, and inventory seamlessly for travel and tourism services.",
       tags: ["React Native", "Laravel", "Expo", "MySQL", "OpenAI","Android", "iOS"],
     imageUrl: supplierMob,
   },
   {
-    title: "E-Commerce Web Application",
+    title: "Aahaas E-Commerce",
     subTitle:"Aahaas",
+    projectUrl:"https://aahaas.com",
     description:
       "It is a travel and tourism platform offering personalized experiences and services, developed for seamless, user-friendly browsing.",
     tags: [ "Next.js", "API", "Bootstrap", "Laravel", ],
     imageUrl: customerwebsite,
   },
   {
-    title: "Landing Page",
+    title: "Aahaas - Landing Page",
     subTitle:"Aahaas",
+    projectUrl:"https://live.aahaas.com",
     description:
       "The Aahaas landing page is a welcoming, informative site showcasing the brand's travel and tourism services, optimized for user engagement.",
     tags: ["HTML", "CSS", "SCSS","Git", "Bootstrap", "JavaScript", ],
     imageUrl: landing,
   },
   {
-    title: "Doc Tracker",
+    title: "Apple Holidays - Official Site",
+    subTitle:"AHDS",
+    projectUrl:"https://appleholidaysds.com",
+    description:
+      "Apple Holidays Destination Services, a top B2B Destination Management Company in Asia, offers premium booking, pricing, and on-ground service, showcasing hidden gems in Singapore, Malaysia, Sri Lanka, Maldives, Vietnam, and Indonesia.",
+    tags: ["Wix", "HTML", "CSS", "PHP" ],
+    imageUrl: ahds,
+  },
+  {
+    title: "Doc-Tracker by Niftron",
     subTitle:"Niftron",
+    projectUrl:"#",
     description:
       "It is a web app for efficient document upload, organization, and tracking, offering secure and streamlined document management.",
-    tags: ["MongoDB",  "ExpressJS", "ReactJS", "NodeJS", "Bootstrap", "Git", ""  ],
+    tags: ["MongoDB",  "Express",  "Git", "ReactJS", "Node", "Bootstrap",],
     imageUrl: niftron1,
   },
 ] as const;
