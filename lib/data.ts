@@ -16,7 +16,7 @@ import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
-    name: "🏠",
+    name: "Home",
     hash: "#home",
   },
   {
