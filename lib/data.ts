@@ -91,7 +91,7 @@ export const experiencesData = [
     company: "WinSys City Campus",
     location:'Col, Sri Lanka',
     description:
-    "Completed CCNA Routing & Switching training, gaining expertise in network fundamentals, IP connectivity, and troubleshooting.",
+    "Completed Routing & Switching training, gaining expertise in network fundamentals, IP connectivity, and troubleshooting.",
     icon: React.createElement(LuGraduationCap),
     date: "2018 Jan - 2018 June",
   },
